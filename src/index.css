@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+    touch-action: manipulation;
+  }
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    max-width: 100%;
+  }
+}
+
+/* Intelligent rendering for below-the-fold content without changing design or layout */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 650px;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0fbfd;
+}
+::-webkit-scrollbar-thumb {
+  background: #a5e7ef;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0891b2;
+}
+
+/* Teal / Cyan Brand Classes */
+.bg-brand-teal {
+  background-color: #005f73;
+}
+.bg-brand-teal:hover {
+  background-color: #084c5b;
+}
+
+.text-brand-teal {
+  color: #005f73;
+}
+
+.bg-brand-light {
+  background-color: #f0fbfd;
+}
+
+.border-brand-soft {
+  border-color: #cffafe;
+}
+
+/* 3D Section Ambient Lighting Keyframes */
+@keyframes pulseLight3D {
+  0%, 100% {
+    opacity: 0.92;
+    transform: scale(1.02);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+.animate-pulse-3d-glow {
+  animation: pulseLight3D 2.5s ease-in-out infinite;
+}
+
+/* Accessibility: Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

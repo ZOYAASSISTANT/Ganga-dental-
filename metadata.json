@@ -1,0 +1,6 @@
+{
+  "name": "Ganga Dental Clinic",
+  "description": "Healthy Smiles. Brighter Lives. Advanced dental care with a gentle touch at Ganga Dental Clinic. Complete dental treatments, expert doctors, modern technology, and personalized care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
