@@ -13,7 +13,7 @@ import whiteningCompareFixedPhoto from '../assets/images/whitening_compare_fixed
 import bracesBeforeAfterPhoto from '../assets/images/braces_before_after_1789224418800.webp';
 import implantBeforeAfterPhoto from '../assets/images/implant_before_after_1789224431383.webp';
 import implantClearComparePhoto from '../assets/images/implant_clear_compare_1790407073333.jpg';
-import aiAssistantAvatar from '../assets/images/ai_assistant_ganga_1789224292530.webp';
+import aiAssistantAvatar from '../assets/images/cute_dentist_avatar_1790494237479.jpg';
 import smileGapPhoto from '../assets/images/smile_gap_comparison_1788766122899.webp';
 
 export {
