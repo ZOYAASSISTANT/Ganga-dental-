@@ -1103,7 +1103,7 @@ _Dear Ganga Dental Team, my appointment has been requested via your AI Assistant
   return (
     <>
       {/* Floating Toggle Button (Bottom Right) */}
-      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40">
+      <div className="fixed bottom-8 right-4 sm:bottom-10 sm:right-6 z-40">
         <button
           onClick={() => {
             const willOpen = !isOpen;
@@ -1141,7 +1141,7 @@ _Dear Ganga Dental Team, my appointment has been requested via your AI Assistant
 
       {/* Floating Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-18 sm:bottom-20 right-3 sm:right-6 z-50 w-[calc(100vw-1.5rem)] sm:w-[420px] rounded-3xl bg-white shadow-2xl border border-cyan-200 overflow-hidden flex flex-col h-[560px] max-h-[calc(100dvh-5.5rem)] animate-in fade-in slide-in-from-bottom-6 duration-200 text-left">
+        <div className="fixed bottom-22 sm:bottom-24 right-3 sm:right-6 z-50 w-[calc(100vw-1.5rem)] sm:w-[420px] rounded-3xl bg-white shadow-2xl border border-cyan-200 overflow-hidden flex flex-col h-[560px] max-h-[calc(100dvh-6.5rem)] animate-in fade-in slide-in-from-bottom-6 duration-200 text-left">
           
           {/* Chat Header */}
           <div className="bg-gradient-to-r from-[#005f73] to-[#087f8c] p-2.5 sm:p-3.5 text-white flex items-center justify-between shadow-xs">
